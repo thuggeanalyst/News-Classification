@@ -1,0 +1,6 @@
+library(readr)
+Train <- read_csv("Train.csv")
+View(Train)
+str(Train)
+attach(Train)
+head(Text)
